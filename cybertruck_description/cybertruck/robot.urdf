@@ -1,255 +1,255 @@
 <robot name="cybertruck_robot">
-<link name="part_1">
+<link name="carbody">
 <visual>
 <origin xyz="0.018307878525622933719 -0.030594958869703717252 0.001643231750324782546" rpy="-0.21297553253301976239 5.557129253135231024e-10 -4.9321720715821796425e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/carbody.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="carbody_material">
 <color rgba="0.43921568627450979783 0.47450980392156860699 0.50196078431372548323 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0.018307878525622933719 -0.030594958869703717252 0.001643231750324782546" rpy="-0.21297553253301976239 5.557129253135231024e-10 -4.9321720715821796425e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/carbody.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0.033763294879191024789 0.001901468679141563858 -0.015010380092101944377" rpy="0.65103686779955938224 -5.5571146384450897115e-10 3.141592648657622" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
-<material name="part_3_material">
+<material name="outerrim_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0.033763294879191024789 0.001901468679141563858 -0.015010380092101944377" rpy="0.65103686779955938224 -5.5571146384450897115e-10 3.141592648657622" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.11073670512081248973 0.0019014693918404075926 -0.015010380011801445488" rpy="0.16241202732505288786 5.5571267971387066082e-10 -4.9321716748452895719e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
-<material name="part_3_material">
+<material name="outerrim_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.11073670512081248973 0.0019014693918404075926 -0.015010380011801445488" rpy="0.16241202732505288786 5.5571267971387066082e-10 -4.9321716748452895719e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.11073670512081248973 0.0019014693918404075926 -0.015010380011801445488" rpy="0.16241202732505288786 5.5571267971387066082e-10 -4.9321716748452895719e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="rubber_material">
 <color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.11073670512081248973 0.0019014693918404075926 -0.015010380011801445488" rpy="0.16241202732505288786 5.5571267971387066082e-10 -4.9321716748452895719e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.02593174574052149392 0.34415310902362844514 -0.10075260528693309736" rpy="0.17310062928363809109 0.022426489351057100896 3.0140387742795233805" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/sensorbar.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="sensorbar_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.02593174574052149392 0.34415310902362844514 -0.10075260528693309736" rpy="0.17310062928363809109 0.022426489351057100896 3.0140387742795233805" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/sensorbar.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.11073670374671130967 0.28735142788103906764 -0.075802871070333316394" rpy="-1.8813036670531162464 5.5571187601923304466e-10 -4.932173985335001745e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="rubber_material">
 <color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.11073670374671130967 0.28735142788103906764 -0.075802871070333316394" rpy="-1.8813036670531162464 5.5571187601923304466e-10 -4.932173985335001745e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.11073670374671130967 0.28735142788103906764 -0.075802871070333316394" rpy="-1.8813036670531162464 5.5571187601923304466e-10 -4.932173985335001745e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
-<material name="part_3_material">
+<material name="outerrim_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.11073670374671130967 0.28735142788103906764 -0.075802871070333316394" rpy="-1.8813036670531162464 5.5571187601923304466e-10 -4.932173985335001745e-09" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0.033763294879191024789 0.001901468679141563858 -0.015010380092101944377" rpy="0.65103686779955938224 -5.5571146384450897115e-10 3.141592648657622" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="rubber_material">
 <color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0.033763294879191024789 0.001901468679141563858 -0.015010380092101944377" rpy="0.65103686779955938224 -5.5571146384450897115e-10 3.141592648657622" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.085942651763439084633 0.33967592224386289335 -0.099969758343487924446" rpy="0.17310062914221596708 -0.022426490453455724672 -3.0140387841406850455" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/sensorbar.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="sensorbar_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.085942651763439084633 0.33967592224386289335 -0.099969758343487924446" rpy="0.17310062914221596708 -0.022426490453455724672 -3.0140387841406850455" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/sensorbar.stl"/>
 </geometry>
 </collision>
 <inertial>
-<origin xyz="-0.038606346995551731049 0.13283439415054057453 -0.0023438513314362079999" rpy="0 0 0"/>
+<origin xyz="-0.038606346995551731049 0.13283439415054057453 -0.0023438513314362149388" rpy="0 0 0"/>
 <mass value="38.268359742051835326" />
-<inertia ixx="0.4977014073632882174" ixy="0.00070745264906414955658"  ixz="-0.00033633329603504339604" iyy="0.10742787032859259233" iyz="0.10014254345708270555" izz="0.49353209683007670527" />
+<inertia ixx="0.49770140736328810638" ixy="0.00070745264906415009868"  ixz="-0.00033633329603504382973" iyy="0.10742787032859259233" iyz="0.10014254345708267779" izz="0.49353209683007659425" />
 </inertial>
 </link>
 
-<link name="part_2">
+<link name="innerrim">
 <visual>
 <origin xyz="6.505213034913026604e-19 1.7347234759768070944e-18 -0.013749999999999998335" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
-<material name="part_2_material">
+<material name="innerrim_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="6.505213034913026604e-19 1.7347234759768070944e-18 -0.013749999999999998335" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
 </collision>
 <inertial>
-<origin xyz="-2.5609492364506605013e-19 2.6358247285309383424e-18 -0.0034957656063080554815" rpy="0 0 0"/>
-<mass value="0.018932239501192930919" />
+<origin xyz="-2.5609492364506585754e-19 2.6358247285309383424e-18 -0.0034957656063080554815" rpy="0 0 0"/>
+<mass value="0.018932239501192934389" />
 <inertia ixx="1.2814753500848308569e-06" ixy="-3.5568085978844062552e-23"  ixz="1.1409175286129718241e-30" iyy="1.2814753500848308569e-06" iyz="2.6500289126369403714e-31" izz="1.1426994969490393846e-06" />
 </inertial>
 </link>
 
 <joint name="rightb" type="revolute">
 <origin xyz="-0.096986705120812491399 0.0019014693240230469244 -0.01501038001944249474" rpy="1.5707963273580198837 -0.16241202732505286011 1.5707963217716685023" />
-<parent link="part_1" />
-<child link="part_2" />
+<parent link="carbody" />
+<child link="innerrim" />
 <axis xyz="0 0 1"/>
 <limit effort="1" velocity="20" />
 <joint_properties friction="0.0"/>
 </joint>
 
-<link name="part_2_2">
+<link name="innerrim_2">
 <visual>
 <origin xyz="-2.0816681711721685133e-17 5.5511151231257827021e-17 -0.013749999999999998335" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
-<material name="part_2_material">
+<material name="innerrim_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-2.0816681711721685133e-17 5.5511151231257827021e-17 -0.013749999999999998335" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
 </collision>
 <inertial>
-<origin xyz="-2.1723297947075093848e-17 5.641225249017353175e-17 -0.0034957656063080554815" rpy="0 0 0"/>
-<mass value="0.018932239501192930919" />
+<origin xyz="-2.1723297947075090766e-17 5.641225249017353175e-17 -0.0034957656063080554815" rpy="0 0 0"/>
+<mass value="0.018932239501192934389" />
 <inertia ixx="1.2814753500848312804e-06" ixy="-2.1990001605735576977e-55"  ixz="-2.2195563056203157584e-31" iyy="1.2814753500848312804e-06" iyz="8.7454095942756596751e-31" izz="1.1426994969490393846e-06" />
 </inertial>
 </link>
 
 <joint name="fright" type="revolute">
 <origin xyz="-0.096986703746711311336 0.28735142781322164929 -0.075802871077974356973" rpy="-1.5707963286136721326 1.2602889865366786459 -1.5707963334588699311" />
-<parent link="part_1" />
-<child link="part_2_2" />
+<parent link="carbody" />
+<child link="innerrim_2" />
 <axis xyz="0 0 1"/>
 <limit effort="1" velocity="20" />
 <joint_properties friction="0.0"/>
 </joint>
 
-<link name="part_2_3">
+<link name="innerrim_3">
 <visual>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="1.5707963267948956698 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="rubber_material">
 <color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="1.5707963267948956698 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/rubber.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
-<material name="part_2_material">
+<material name="innerrim_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="1.5707963267948961139 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
-<material name="part_3_material">
+<material name="outerrim_material">
 <color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0 2.7755575615628913511e-17 -0.013750000000000005274" rpy="1.5707963267948961139 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/outerrim.stl"/>
 </geometry>
 </collision>
 <inertial>
@@ -261,40 +261,40 @@
 
 <joint name="fleft" type="revolute">
 <origin xyz="0.020013296253292199578 0.28735142723615747506 -0.075802871142992792053" rpy="1.5707963254239905027 -1.1534217829653337084 -1.5707963304738461474" />
-<parent link="part_1" />
-<child link="part_2_3" />
+<parent link="carbody" />
+<child link="innerrim_3" />
 <axis xyz="0 0 1"/>
 <limit effort="1" velocity="20" />
 <joint_properties friction="0.0"/>
 </joint>
 
-<link name="part_2_4">
+<link name="innerrim_4">
 <visual>
 <origin xyz="1.7347234759768070944e-18 1.7347234759768070944e-18 -0.013750000000000001804" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
-<material name="part_2_material">
+<material name="innerrim_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="1.7347234759768070944e-18 1.7347234759768070944e-18 -0.013750000000000001804" rpy="-1.570796326794896558 -1.570796326794896558 0" />
 <geometry>
-<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+<mesh filename="package://cybertruck_description/cybertruck/innerrim.stl"/>
 </geometry>
 </collision>
 <inertial>
-<origin xyz="8.2810724168366296975e-19 2.6358247295912012954e-18 -0.0034957656063080589509" rpy="0 0 0"/>
-<mass value="0.018932239501192930919" />
+<origin xyz="8.2810724168366306605e-19 2.6358247295912012954e-18 -0.0034957656063080589509" rpy="0 0 0"/>
+<mass value="0.018932239501192934389" />
 <inertia ixx="1.2814753500848312804e-06" ixy="-1.4227234391537625021e-22"  ixz="-5.0130760872627991272e-31" iyy="1.2814753500848308569e-06" iyz="5.1565669562683390592e-31" izz="1.1426994969490393846e-06" />
 </inertial>
 </link>
 
 <joint name="bleft" type="revolute">
 <origin xyz="0.020013294879191026454 0.0019014687469589204062 -0.015010380084460912473" rpy="1.5707963260962891638 -0.65103686779955827202 -1.5707963313037036635" />
-<parent link="part_1" />
-<child link="part_2_4" />
+<parent link="carbody" />
+<child link="innerrim_4" />
 <axis xyz="0 0 1"/>
 <limit effort="1" velocity="20" />
 <joint_properties friction="0.0"/>
