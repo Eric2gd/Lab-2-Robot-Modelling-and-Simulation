@@ -1,0 +1,7 @@
+{
+    "documentId": "800a17e56e1512a6223dde2a",
+    "outputFormat": "urdf",
+    "packageName": "cybertruck_description/cybertruck",
+    "robotName": "cybertruck_robot",
+    "assemblyName": "cybertruck"
+}

@@ -1,0 +1,236 @@
+<robot name="cybertruck_robot">
+<link name="part_1">
+<visual>
+<origin xyz="0.018307878525622933719 -0.030594958869703717252 0.001643231750324782546" rpy="-0.21297553253301976239 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.43921568627450979783 0.47450980392156860699 0.50196078431372548323 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018307878525622933719 -0.030594958869703717252 0.001643231750324782546" rpy="-0.21297553253301976239 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.033763296253292197913 0.28735142716834016774 -0.075802871150633832631" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.033763296253292197913 0.28735142716834016774 -0.075802871150633832631" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.033763296253292197913 0.28735142716834016774 -0.075802871150633832631" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.033763296253292197913 0.28735142716834016774 -0.075802871150633832631" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.02593174574052149392 0.34415310902362844514 -0.10075260528693309736" rpy="0.17310062928363809109 0.022426489351057100896 3.0140387742795233805" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.02593174574052149392 0.34415310902362844514 -0.10075260528693309736" rpy="0.17310062928363809109 0.022426489351057100896 3.0140387742795233805" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670374671132355 0.28735142788103901212 -0.075802871070333302517" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03376329487919101785 0.0019014686791415495466 -0.015010380092101963459" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11073670512081250361 0.0019014693918404134473 -0.015010380011801443753" rpy="-5.0137323312838022603e-24 5.557129253135231024e-10 -4.9321720715821796425e-09" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.085942651763439084633 0.33967592224386289335 -0.099969758343487924446" rpy="0.17310062914221596708 -0.022426490453455724672 -3.0140387841406850455" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.085942651763439084633 0.33967592224386289335 -0.099969758343487924446" rpy="0.17310062914221596708 -0.022426490453455724672 -3.0140387841406850455" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.033763296403474703233 0.28735142740626123947 -0.075802871619777223433" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.033763296403474703233 0.28735142740626123947 -0.075802871619777223433" rpy="-2.9286171210567784051 -5.557129253135231024e-10 3.1415926486576211119" />
+<geometry>
+<mesh filename="package://cybertruck_description/cybertruck/part_3.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.038486702034747986845 0.13315464000248050658 -0.0025699337751514906777" rpy="0 0 0"/>
+<mass value="38.417932880466011625" />
+<inertia ixx="0.50167442642905768491" ixy="-2.1605318974800193782e-08"  ixz="7.3851023279581165526e-09" iyy="0.10864545249231295776" iyz="0.10134493309456478471" izz="0.49745505094257347345" />
+</inertial>
+</link>
+
+
+</robot>
