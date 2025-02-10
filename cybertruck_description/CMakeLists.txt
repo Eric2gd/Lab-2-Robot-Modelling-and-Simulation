@@ -19,7 +19,8 @@ install(
   DIRECTORY
     rviz
     launch
-    cybertruck
+    urdf
+    meshes
   DESTINATION 
     share/${PROJECT_NAME}/
 )
